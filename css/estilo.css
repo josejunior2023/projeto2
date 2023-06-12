@@ -1,0 +1,224 @@
+body {
+    font-family: sans-serif;
+    background-color: #f8f6f7;
+    margin-top: 60px;
+    display: block;
+}
+
+.site-largura {
+    width: 1475px;
+    margin: 0 auto;
+    min-width: 1000px;
+}
+
+nav {
+    z-index: 1;
+    font-size: 1.2em;
+}
+
+.menu-topo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    top: 0;
+    left: 0; 
+    position: fixed;
+}
+
+.texto-esquerda {
+    display: flex;
+    flex: 1;
+    padding: 1.5rem 0;
+    margin-left: 210px;
+    margin-top: 15px;
+}
+
+.texto-direita {
+    padding: 1rem 0;
+    word-spacing: 2em;
+    text-align: right;
+    margin-right: 210px;
+}
+
+.n1 {
+    font-weight: bold;
+    font-size: 2em;
+    color: #f35926;
+    margin-top: 5px;
+}
+
+.n2 {
+    font-weight: bold;
+    font-size: 2em;
+    color: #fcb929;
+    margin-top: 5px;
+}
+
+.n3 {
+    font-weight: bold;
+    font-size: 2em;
+    color: #00b049;
+    margin-top: 5px;
+}
+
+.texto-viagens {
+    padding: 1.5rem 0;
+    font-weight: Bold;
+    font-size: 1rem;
+}
+
+header {
+    min-width: 1000px;
+    padding: 20rem;
+    background-image: url("../img/barcos.webp");
+    background-attachment: unset;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.caixa-branca {
+    width: 1475px;
+    padding: 2.9rem;
+    margin-top: -245px;
+    margin-left: -115px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.texto-passagens {
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: -1px;
+    margin-left: -1px;
+}
+
+input {
+    font-size: 30px;
+    margin-top: 30px;
+    border: 1;
+    width: 270px;
+    height: 50px;
+}
+
+.btn-buscar {
+    border-radius: 5px;
+    border:none;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    border: 1;
+    width: 262px;
+    height: 50px;
+    cursor: pointer;
+}
+
+h4 {
+    margin-top: -90px;
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.box {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 60px;
+    margin-bottom: 60px;
+}
+
+.caixa {
+    width: 100%;
+    height: 300px;
+    border: none;
+    border-radius: 15px;
+}
+
+.rio {
+    background-image: url("../img/rio.webp");
+    background-position: 48% 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bonito {
+    background-image: url("../img/bonito.webp");
+    background-position: 56% 56%;
+    background-repeat: no-repeat;
+}
+
+.sp {
+    background-image: url("../img/sao-paulo.webp");
+    background-position: 56% 56%;
+    background-repeat: no-repeat;
+}
+
+.foz {
+    background-image: url("../img/foz.webp");
+    background-position: 44% 97%;
+    background-repeat: no-repeat;
+}
+
+.maceio {
+    background-image: url("../img/maceio.webp");
+    background-position: 48% top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.salvador {
+    background-image: url("../img/salvador.webp");
+    background-position: 48% top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fortaleza {
+    background-image: url("../img/fortaleza.webp");
+    background-position: 44% 80%;
+    background-repeat: no-repeat;
+}
+
+.bh {
+    background-image: url("../img/belo-horizonte.webp");
+    background-position: 44% 40%;no-repeat;
+}
+
+h5 {
+    font-size: 27px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 68px;
+    margin-bottom: 41px;
+    text-shadow: -1px -1px 10px rgb(0, 0, 0);
+}
+
+h6 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-shadow: -1px -1px 10px rgb(0, 0, 0);
+    margin-bottom: 33px;
+}
+
+.btn-ver-mais {
+    font-size: 20px;
+    width: 200px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 57px;
+    box-shadow: -1px -1px 10px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+::placeholder-shown
