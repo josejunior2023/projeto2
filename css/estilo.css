@@ -222,3 +222,4 @@ h6 {
     cursor: pointer;
 }
 
+::placeholder-shown;
