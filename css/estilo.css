@@ -7,7 +7,7 @@ body {
 
 .site-largura {
     width: 1475px;
-
+    margin: 0 auto;
     min-width: 1000px;
 }
 
@@ -222,4 +222,3 @@ h6 {
     cursor: pointer;
 }
 
-::placeholder-shown;
