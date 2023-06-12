@@ -7,7 +7,7 @@ body {
 
 .site-largura {
     width: 1475px;
-    margin: 0 auto;
+
     min-width: 1000px;
 }
 
@@ -186,7 +186,8 @@ h4 {
 
 .bh {
     background-image: url("../img/belo-horizonte.webp");
-    background-position: 44% 40%;no-repeat;
+    background-position: 44% 40%;
+    background-repeat: no-repeat;
 }
 
 h5 {
@@ -221,4 +222,4 @@ h6 {
     cursor: pointer;
 }
 
-::placeholder-shown
+::placeholder-shown;
